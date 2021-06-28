@@ -24,4 +24,4 @@ npm run serve
 python manage.py runserver
 ```
 
-### Now open up chrome and your project is running at 127.0.0.1:8000
+#### Now open up chrome and your project is running at 127.0.0.1:8000
