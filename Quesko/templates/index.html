@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'bundle.css' %}">
+{% endblock %}
+
+{% block content %}
+<!-- This part is in the screenshot at the bottom! -->
+<div id="app"></div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'bundle.js' %}"></script>
+{% endblock %}
