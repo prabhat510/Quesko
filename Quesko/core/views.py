@@ -13,5 +13,5 @@ class IndexTemplateView(LoginRequiredMixin, TemplateView):
 
     # to define which template name to use
     def get_template_names(self):
-        template_name = index-dev.html
+        template_name = "index-dev.html"
         return template_name
