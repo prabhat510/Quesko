@@ -1,5 +1,5 @@
 # Quesko
-
+Quesko is a quora like question answer web application made using django, django restframework and VueJs.
 #### create a python virtual environment and activate it:
 ```
 virtualenv venv
