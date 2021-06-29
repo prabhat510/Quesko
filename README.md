@@ -10,6 +10,11 @@ virtualenv venv
 pip install -r requirements.txt
 ```
 
+#### Apply the migrations:
+```
+python manage.py migrate
+```
+
 #### install all the VueJs dependencies:
 ```
 cd Quesko/frontend
